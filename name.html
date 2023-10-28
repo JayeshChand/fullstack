@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>my name is:</h1>
+    <h2 id="name">Name</h2>
+    <button onclick="change()">sumbit</button>
+    <script>
+         let index=0;
+        let change=()=>{
+           
+            let array=["pankaj","jayesh","suresh"];
+        
+            let name=document.getElementById("name").innerHTML=array[index]
+            index++;
+            if(index>array.length)
+        {let name=document.getElementById("name").innerHTML="no more"}
+        }
+    </script>
+</body>
+</html>

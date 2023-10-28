@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.main{
+    background-color: rgba(228, 130, 168, 0.877);
+    height:100VH ;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: antiquewhite;
+    box-shadow: grey;
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    text-align: center;
+    padding: 5px;
+    width: 95%;
+    
+}
+.box{
+    box-shadow: 0px 1px 3px burlywood;
+    border-radius: 5px;
+}
+#sumbit{
+    width: 300px;
+    background-color: rgb(199, 151, 92);
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.col:hover{
+   background-color: lightcoral;
+   color: black;
+}
